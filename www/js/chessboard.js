@@ -9,7 +9,6 @@
  */
 
 // start anonymous scope
-;(function() {
 'use strict';
 
 //------------------------------------------------------------------------------
@@ -185,7 +184,7 @@ function objToFen(obj) {
   return fen;
 }
 
-window['ChessBoard'] = window['ChessBoard'] || function(containerElOrId, cfg) {
+var ChessBoard = function(containerElOrId, cfg) {
 
 cfg = cfg || {};
 
@@ -1701,7 +1700,8 @@ return widget;
 }; // end window.ChessBoard
 
 // expose util functions
-window.ChessBoard.fenToObj = fenToObj;
-window.ChessBoard.objToFen = objToFen;
+ChessBoard.fenToObj = fenToObj;
+ChessBoard.objToFen = objToFen;
 
-})(); // end anonymous wrapper
+module.exports = ChessBoard;
+
