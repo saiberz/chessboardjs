@@ -1,0 +1,24 @@
+{
+  "name": "chessboardjs",
+  "version": "0.1.0",
+  "description": "JavaScript Chess Board$",
+  "main": "www/js/chessboard.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiberz/chessboardjs.git"
+  },
+  "keywords": [
+    "chess",
+    "chessboard",
+    "chessboardjs"
+  ],
+  "author": "oakmac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saiberz/chessboardjs/issues"
+  },
+  "homepage": "https://github.com/saiberz/chessboardjs#readme"
+}
